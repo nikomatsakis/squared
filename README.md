@@ -70,13 +70,13 @@ class Character:
         # invokes `Character::new` in Rust via native code
 
     def name(self):
-        # invokes `Character::new` in Rust via native code
+        # invokes `Character::name` in Rust via native code
 
     def level(self):
-        # invokes `Character::new` in Rust via native code
+        # invokes `Character::level` in Rust via native code
 
     def level_up(self):
-        # invokes `Character::new` in Rust via native code
+        # invokes `Character::level_up` in Rust via native code
 ```
 
 Of course you can create more than Python. You could also do `cargo gluegun java` for Java code or `cargo gluegun cpp` for C++ code.
